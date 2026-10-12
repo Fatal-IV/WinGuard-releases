@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="WinGuard: laptopunuza göz kulak olur">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10142B"/>
+      <stop offset="0.55" stop-color="#1A1F3A"/>
+      <stop offset="1" stop-color="#0067C0"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1A1F3A"/>
+      <stop offset="1" stop-color="#0067C0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.82" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#4CC2FF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#4CC2FF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+
+  <!-- Kalkan işareti (uygulama simgesiyle aynı geometri, 96x96) -->
+  <g transform="translate(120 96) scale(1.75)">
+    <path d="M22,0 H74 A22,22 0 0 1 96,22 V74 A22,22 0 0 1 74,96 H22 A22,22 0 0 1 0,74 V22 A22,22 0 0 1 22,0 Z"
+          fill="url(#mark)" stroke="#FFFFFF" stroke-opacity="0.25" stroke-width="1.5"/>
+    <path d="M48,17 L75,27 L75,50 C75,66 62,76 48,83 C34,76 21,66 21,50 L21,27 Z"
+          fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M28,43 L38,60 L48,46 L58,60 L68,43"
+          fill="none" stroke="#4CC2FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="330" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="86" fill="#FFFFFF" letter-spacing="-1.5">WinGuard</text>
+  <text x="334" y="214" font-family="'Segoe UI Variable Text','Segoe UI',Helvetica,Arial,sans-serif" font-size="27" fill="#C9D6F2">Laptopunuza göz kulak olur.</text>
+
+  <g font-family="'Segoe UI Variable Text','Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="600">
+    <rect x="334" y="250" width="148" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="408" y="273" text-anchor="middle" fill="#FFFFFF">Windows 11</text>
+    <rect x="496" y="250" width="156" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="574" y="273" text-anchor="middle" fill="#FFFFFF">Telefona bildirim</text>
+    <rect x="666" y="250" width="148" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.12" stroke="#FFFFFF" stroke-opacity="0.22"/>
+    <text x="740" y="273" text-anchor="middle" fill="#FFFFFF">PIN · Şifre · Desen</text>
+  </g>
+</svg>
