@@ -217,3 +217,9 @@ Kanal adı rastgele ve tahmin edilemezdir. İstediğiniz zaman **Ayarlar → Bil
 <sub>WinGuard © Fatal-IV</sub>
 
 </div>
+
+---
+
+## Katkıda Bulunan
+
+[**Güneş** (@vertablx)](https://github.com/vertablx) — fikirleri, testleri ve desteğiyle bu projenin parçası.
